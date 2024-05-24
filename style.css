@@ -1,0 +1,40 @@
+.button {
+  padding: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li > a:hover {
+  color: red;
+}
+
+.portfolio--cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portifolio--card {
+  width: 400px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
