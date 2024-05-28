@@ -97,7 +97,12 @@ ul {
 }
 .home-btn {
   text-align: center;
+  padding: 15px;
 }
-.home-cointainer {
+#home-container {
   text-align: center;
+}
+.home-btn1 {
+  text-align: left;
+  padding: 15px;
 }
