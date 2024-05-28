@@ -1,5 +1,7 @@
-.button {
-  padding: 2px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -20,7 +22,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: red;
+  color: blue;
 }
 
 .portfolio--cards {
@@ -28,6 +30,7 @@ nav > ul > li > a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .portifolio--card {
@@ -37,4 +40,64 @@ nav > ul > li > a:hover {
   flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+
+#services-container {
+  padding: 2rem;
+  width: 100%;
+  display: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+  gap: 1rem;
+}
+
+.service-btn {
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 5rem;
+}
+p {
+  text-align: center;
+  padding: auto;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  background-color: yellow;
+}
+body {
+  background-color: beige;
+}
+h4 {
+  text-align: center;
+  font-weight: bold;
+  justify-content: space-between;
+}
+ul {
+  text-align: center;
+  padding: 10px;
+  font-weight: 10px;
+}
+.testimonials-btn {
+  text-align: center;
+  padding: 20px 15px;
+}
+#testimonials--container {
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.home-btn {
+  text-align: center;
+}
+.home-cointainer {
+  text-align: center;
 }
