@@ -42,10 +42,10 @@ nav > ul > li > a:hover {
   padding: 10px;
 }
 
-#services-container {
+.services-container {
   padding: 2rem;
   width: 100%;
-  display: block;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
@@ -54,14 +54,14 @@ nav > ul > li > a:hover {
 }
 
 .service-btn {
-  padding: 60px 40px;
   display: flex;
   align-items: center;
-  flex-direction: column;
   width: 400px;
   cursor: pointer;
   border-radius: 20px;
-  margin-bottom: 5rem;
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
 }
 p {
   text-align: center;
