@@ -106,3 +106,45 @@ ul {
   text-align: left;
   padding: 15px;
 }
+
+@media (max-width: 1440px) {
+  body {
+    background-color: aquamarine;
+    width: 700px;
+    font-size: 35px;
+  }
+  .service-btn {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: lawngreen;
+    font-size: 40px;
+    width: 760px;
+  }
+  .service-btn {
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: azure;
+    font-size: 20px;
+    width: 350px;
+  }
+  .service-btn {
+    width: 100%;
+    font-size: 25px;
+  }
+  .services-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background-color: aqua;
+    width: 250px;
+  }
+}
